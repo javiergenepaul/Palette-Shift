@@ -1,9 +1,6 @@
 import { Theme, useSettingsStore } from "@/stores";
 import { useEffect } from "react";
-
-interface ThemeProviderProps {
-  children: React.ReactNode;
-}
+import { ThemeProviderProps } from "./theme-provider-props";
 
 export const ThemeProvider: React.FC<ThemeProviderProps> = ({ children }) => {
   const { theme, setTheme, color } = useSettingsStore();
