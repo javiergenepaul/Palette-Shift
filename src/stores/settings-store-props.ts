@@ -1,5 +1,7 @@
 export type Theme = "dark" | "light" | "system" | undefined;
 export type FontType = "inter" | "work-sans" | "poppins";
+export type LanguageType = "en" | "ja" | "fil" | "ceb";
+
 export type Color =
   | "azure"
   | "emerald"
@@ -20,6 +22,7 @@ export interface SettingStoreInterface {
   setTheme: (theme: Theme) => void;
 }
 
+export const DEFAULT_LANGUAGE: LanguageType = "en";
 export const THEME_LOCAL: string = "vite-ui-theme";
 export const COLOR_LOCAL: string = "vite-ui-color";
 export const FONT_LOCAL: string = "vite-ui-font";
