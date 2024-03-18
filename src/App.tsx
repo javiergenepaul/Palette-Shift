@@ -1,14 +1,11 @@
-import { Button } from "./components";
 import { ThemeProvider } from "./provider";
+import { Main } from "./screens/main";
 
 function App() {
   return (
-    <>
-      <ThemeProvider>
-        <h1 className="text-3xl font-bold underline">Hello world!</h1>
-        <Button>test</Button>
-      </ThemeProvider>
-    </>
+    <ThemeProvider>
+      <Main />
+    </ThemeProvider>
   );
 }
 
