@@ -5,12 +5,7 @@ import {
   CardHeader,
   CardTitle,
 } from "@/components";
-
-interface CardContainerInterface {
-  title: string;
-  description: string;
-  children: React.ReactNode;
-}
+import { CardContainerInterface } from "./card-container-props";
 
 export const CardContainer = (props: CardContainerInterface) => {
   const { title, description, children } = props;
