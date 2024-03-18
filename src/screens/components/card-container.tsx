@@ -6,6 +6,7 @@ import {
   CardTitle,
 } from "@/components";
 import { CardContainerInterface } from "./card-container-props";
+import { DarkModeDropdown } from "./dark-mode-dropdown";
 
 export const CardContainer = (props: CardContainerInterface) => {
   const { title, description, children } = props;
@@ -13,7 +14,9 @@ export const CardContainer = (props: CardContainerInterface) => {
   return (
     <Card>
       <CardHeader>
-        <CardTitle>{title}</CardTitle>
+        <CardTitle className="flex justify-between">
+          {title} <DarkModeDropdown />
+        </CardTitle>
         <CardDescription>{description}</CardDescription>
       </CardHeader>
       <CardContent>{children}</CardContent>
