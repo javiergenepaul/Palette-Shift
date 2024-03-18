@@ -1,30 +1,13 @@
 import { create } from "zustand";
-
-export type Theme = "dark" | "light" | "system" | undefined;
-export type FontType = "inter" | "work-sans" | "poppins";
-export type Color =
-  | "azure"
-  | "emerald"
-  | "golden"
-  | "sunset"
-  | "lavender"
-  | "scarlet"
-  | "silver";
-
-interface SettingStoreInterface {
-  theme: Theme;
-  font: FontType;
-  color: Color;
-  setColor: (color: Color) => void;
-  setFont: (font: FontType) => void;
-  getSystemTheme: () => string;
-  getTheme: () => boolean;
-  setTheme: (theme: Theme) => void;
-}
-
-const THEME_LOCAL: string = "vite-ui-theme";
-const COLOR_LOCAL: string = "vite-ui-color";
-const FONT_LOCAL: string = "vite-ui-font";
+import {
+  SettingStoreInterface,
+  THEME_LOCAL,
+  Theme,
+  COLOR_LOCAL,
+  Color,
+  FONT_LOCAL,
+  FontType,
+} from "./settings-store-props";
 
 export const useSettingsStore = create<SettingStoreInterface>((set, get) => ({
   theme: localStorage.getItem(THEME_LOCAL) as Theme | undefined,
