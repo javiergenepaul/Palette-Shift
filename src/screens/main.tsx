@@ -1,5 +1,5 @@
 import { translate } from "@/i18n";
-import { CardContainer } from ".";
+import { CardContainer, SettingsContent } from ".";
 import { MainLayout } from "./layout";
 
 export const Main = () => {
@@ -9,7 +9,7 @@ export const Main = () => {
         title={translate("completeTitle")}
         description={translate("description")}
       >
-        test
+        <SettingsContent />
       </CardContainer>
     </MainLayout>
   );

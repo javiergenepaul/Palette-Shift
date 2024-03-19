@@ -2,5 +2,119 @@
   "title": "PaletteShift",
   "subTitle": "Personalize Palette and Theme",
   "completeTitle": "PaletteShift: Personalize Palette and Theme",
-  "description": "Change the settings on your own preferences"
+  "description": "Change the settings on your own preferences",
+  "color": {
+    "color": "Color",
+    "formDescription": "Upgrade your interface: Select from our color palette styles for a sleek. Customize your browsing experience, your way.",
+    "options": {
+      "emerald": {
+        "title": "Emerald Elegance",
+        "quotes": {
+          "01": "In the depths of its verdant hue lies the essence of emerald elegance, a symbol of grace and refinement.",
+          "02": "Adorned in emerald's allure, elegance becomes an everlasting statement of beauty and poise.",
+          "03": "With the regal charm of emerald, elegance blossoms into a captivating symphony of sophistication.",
+          "04": "Emerald whispers of opulence and grace, weaving a tale of timeless elegance in every gleam.",
+          "05": "Embrace the enchanting allure of emerald, where elegance reigns supreme in every facet.",
+          "06": "In the realm of emerald elegance, each shimmering facet tells a story of refined grace and natural splendor.",
+          "07": "Like a symphony of green hues, emerald elegance dances with sophistication and allure.",
+          "08": "Within the depths of emerald's luminous glow lies a world of unparalleled elegance and charm.",
+          "09": "In the realm of luxury, emerald stands as the epitome of elegance, a jewel adorning the graceful.",
+          "10": "Emerald's brilliance illuminates the path to timeless elegance, casting a radiant glow upon all who embrace its allure."
+        }
+      },
+      "azure": {
+        "title": "Azure Bliss",
+        "quotes": {
+          "01": "In the expanse of azure bliss, find solace in the gentle caress of endless skies and tranquil waters.",
+          "02": "Let azure bliss wash over you like a gentle breeze, carrying away worries and leaving only peace in its wake.",
+          "03": "Beneath the azure canopy of heaven, discover the boundless serenity that whispers through the heart of bliss.",
+          "04": "Azure bliss: where the vastness of the sky meets the depth of the ocean, painting a portrait of tranquility.",
+          "05": "In the realm of azure bliss, every moment is a brushstroke of serenity on the canvas of life.",
+          "06": "Find refuge in the azure depths of bliss, where the soul finds sanctuary in the embrace of boundless blue.",
+          "07": "Azure bliss: a symphony of calm, where the song of the sea meets the melody of the sky.",
+          "08": "Embrace the azure horizon of bliss, where every hue of blue holds the promise of peace.",
+          "09": "In the azure expanse of bliss, let your spirit soar on wings of tranquility and grace.",
+          "10": "Azure bliss: where the azure sky meets the tranquil sea, and all worries fade into the horizon."
+        }
+      },
+      "golden": {
+        "title": "Golden Haze",
+        "quotes": {
+          "01": "In the embrace of the golden haze, find warmth in the gentle caress of sunlight, painting the world in hues of amber and gold.",
+          "02": "Lost in the golden haze, let time stand still as you wander through fields of dreams bathed in the soft glow of twilight.",
+          "03": "Beneath the golden haze, discover the magic of moments suspended in the amber light, where memories are woven into the fabric of time.",
+          "04": "Golden haze: where the sun meets the horizon, casting a spell of enchantment over the land, igniting hearts with the fire of inspiration.",
+          "05": "In the realm of golden haze, every whisper of the wind carries echoes of dreams yet to unfold, promising adventures in lands unknown.",
+          "06": "Like whispers from the past, the golden haze reveals secrets long forgotten, weaving a tapestry of stories beneath the golden sky.",
+          "07": "Embrace the golden haze, where every moment holds the promise of new beginnings, and every sunset paints the sky with dreams.",
+          "08": "Within the golden haze, find solace in the gentle glow of evening light, as shadows dance and dreams take flight.",
+          "09": "Golden haze: a symphony of warmth and wonder, where the world is bathed in the soft embrace of twilight's embrace.",
+          "10": "In the golden haze of dusk, let your worries fade into the horizon, as the day gives way to the quiet whispers of the night."
+        }
+      },
+      "sunset": {
+        "title": "Sunset Ember",
+        "quotes": {
+          "01": "In the glow of the sunset ember, feel the warmth of fading daylight kissing the earth with hues of crimson and gold, a final embrace before the night.",
+          "02": "Lost in the mesmerizing dance of the sunset ember, let the flames of twilight ignite your soul with passion and possibility, painting the sky with dreams.",
+          "03": "Beneath the canopy of the sunset ember, discover the magic of moments suspended in the fiery light, where memories are etched in the canvas of the evening sky.",
+          "04": "Sunset ember: where the day meets its end, casting a fiery spectacle over the horizon, a symphony of colors that ignites the heart with wonder.",
+          "05": "In the realm of sunset ember, every flicker of light paints a story of endings and beginnings, a tapestry of emotions woven into the fabric of twilight.",
+          "06": "Like embers of a dying fire, the sunset ember whispers secrets of the day's journey, casting shadows that dance with the fading light.",
+          "07": "Embrace the warmth of the sunset ember, where every ray of light holds the promise of a new dawn, and every dusk is a reminder of life's eternal cycle.",
+          "08": "Within the glow of the sunset ember, find solace in the quiet moments of reflection, as the day fades into the gentle embrace of the night.",
+          "09": "Sunset ember: a symphony of hues and shades, where the sky is set ablaze in the final moments of daylight, a breathtaking display of nature's beauty.",
+          "10": "In the embrace of the sunset ember, let go of the worries of the day, as the fiery glow illuminates the path to peace and tranquility."
+        }
+      },
+      "lavender": {
+        "title": "Purple Majesty",
+        "quotes": {
+          "01": "In the realm of Purple Majesty, let the royal hue reign supreme, painting the world in regal splendor.",
+          "02": "Lost in the enchanting embrace of Purple Majesty, feel the magic of twilight's kiss as day gives way to night.",
+          "03": "Beneath the cloak of Purple Majesty, discover the richness of life's tapestry, woven with threads of passion and grace.",
+          "04": "Purple Majesty: where the sky meets the earth in a majestic dance of twilight, casting a spell of awe and wonder.",
+          "05": "In the realm of Purple Majesty, every moment is a symphony of violet hues, echoing the grandeur of kings and queens.",
+          "06": "Like whispers from a distant kingdom, the Purple Majesty beckons with promises of dreams fulfilled and destinies embraced.",
+          "07": "Embrace the elegance of Purple Majesty, where every sunset is a coronation of colors, painting the sky in hues of royalty.",
+          "08": "Within the embrace of Purple Majesty, find solace in the tranquil beauty of twilight, as day gracefully yields to night.",
+          "09": "Purple Majesty: a tapestry of dreams and desires, where the heart finds refuge in the serenity of twilight's embrace.",
+          "10": "In the kingdom of Purple Majesty, let your spirit soar on wings of imagination, as you bask in the glory of nature's grandeur."
+        }
+      },
+      "scarlet": {
+        "title": "Scarlet Serenade",
+        "quotes": {
+          "01": "In the symphony of Scarlet Serenade, let the crimson melody dance upon your soul, stirring passion and awakening hearts.",
+          "02": "Lost in the enchanting embrace of Scarlet Serenade, feel the rhythm of life pulsating through every scarlet-hued note.",
+          "03": "Beneath the canopy of Scarlet Serenade, discover the power of love's melody, weaving its way through the tapestry of time.",
+          "04": "Scarlet Serenade: where the echoes of passion resound, painting the world in hues of fiery desire and burning devotion.",
+          "05": "In the embrace of Scarlet Serenade, every moment is a love song, sung by the heart and whispered by the wind.",
+          "06": "Like whispers from a distant ballad, the Scarlet Serenade calls to the soul, beckoning with promises of romance and adventure.",
+          "07": "Embrace the passion of Scarlet Serenade, where every sunset is a serenade of scarlet hues, painting the sky with love's eternal flame.",
+          "08": "Within the embrace of Scarlet Serenade, find solace in the tender embrace of love's sweet melody, as it serenades the night.",
+          "09": "Scarlet Serenade: a symphony of desire and devotion, where the heart finds refuge in the embrace of love's eternal flame.",
+          "10": "In the melody of Scarlet Serenade, let your soul dance to the rhythm of passion, as you surrender to the song of love's sweet serenade."
+        }
+      },
+      "silver": {
+        "title": "Silver Serenity",
+        "quotes": {
+          "01": "In the embrace of Silver Serenity, find tranquility in the shimmering glow of moonlight, casting a soothing spell over the world.",
+          "02": "Lost in the serene embrace of Silver Serenity, feel the gentle touch of starlight guiding you to a place of inner peace.",
+          "03": "Beneath the blanket of Silver Serenity, discover the beauty of stillness, where silence speaks volumes and the soul finds solace.",
+          "04": "Silver Serenity: where the moon kisses the earth with its silvery light, painting the night with a tranquil hue of calm.",
+          "05": "In the realm of Silver Serenity, every breath is a whisper of serenity, echoing the quiet beauty of a peaceful night.",
+          "06": "Like whispers from a celestial symphony, the Silver Serenity beckons with promises of serenity and inner harmony.",
+          "07": "Embrace the tranquility of Silver Serenity, where every star is a reminder of the beauty found in moments of quiet contemplation.",
+          "08": "Within the embrace of Silver Serenity, find solace in the gentle embrace of the night, as the world slumbers beneath a blanket of stars.",
+          "09": "Silver Serenity: a sanctuary of peace and calm, where the soul finds refuge in the gentle embrace of the night sky.",
+          "10": "In the serenity of Silver Serenity, let your worries fade away as you bask in the quiet beauty of the night, finding peace in the stillness."
+        }
+      }
+    },
+    "toast": {
+      "success": "Palette refreshed! Dive into a smoother browsing experience with our {{color}} color scheme! 🌈✨"
+    }
+  }
 }
