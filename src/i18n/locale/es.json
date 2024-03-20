@@ -3,7 +3,21 @@
   "subTitle": "Personalizar paleta y tema",
   "completeTitle": "PaletteShift: Personaliza la paleta y el tema",
   "description": "Cambie la configuración según sus propias preferencias",
+  "settingsUpdated": "Ajustes actualizan",
+  "font": {
+    "formLabel": "Seleccionar familia de fuentes",
+    "formDescription": "Elija la familia de fuentes según sus preferencias"
+  },
+  "theme": {
+    "toggleTheme": "Alternar tema",
+    "dark": "Oscuro",
+    "light": "Luz",
+    "system": "Sistema"
+  },
   "color": {
+    "success": {
+      "general": "¡Paleta de colores actualizada!  {{language}}! "
+    },
     "color": "Color",
     "formLabel": "Seleccionar paleta de colores",
     "formDescription": "Actualice su interfaz: seleccione estilos de nuestra paleta de colores para una apariencia elegante. ",
@@ -68,7 +82,7 @@
           "09": "Brasas del atardecer: una sinfonía de matices y sombras, donde el cielo se enciende en los últimos momentos del día, una muestra impresionante de la belleza de la naturaleza."
         }
       },
-      "lavender": {
+      "purple": {
         "title": "Majestad Púrpura",
         "quotes": {
           "10": "En el reino de Purple Majesty, deja que tu espíritu se eleve con las alas de la imaginación mientras disfrutas de la gloria de la grandeza de la naturaleza.",
@@ -115,13 +129,15 @@
       }
     },
     "toast": {
-      "success": "¡Paleta renovada!  {{color}} ¡esquema de colores! "
+      "success": "¡Paleta de colores renovada!  {{color}} ¡esquema de colores! "
     }
   },
   "languageOption": {
+    "toast": {
+      "success": "¡Idioma actualizado!  {{language}}! "
+    },
     "formLabel": "Seleccione el idioma:",
     "formDescription": "Elija el idioma principal que desea utilizar.",
-    "cebuano": "cebuano",
     "japanese": "japonés",
     "tagalog": "tagalo",
     "english": "Inglés",

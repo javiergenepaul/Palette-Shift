@@ -11,6 +11,7 @@ import { Moon, Sun } from "lucide-react";
 
 export const DarkModeDropdown = () => {
   const { setTheme, getSystemTheme } = useSettingsStore();
+
   return (
     <DropdownMenu>
       <DropdownMenuTrigger value={getSystemTheme()} asChild>
