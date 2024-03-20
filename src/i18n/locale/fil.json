@@ -3,7 +3,21 @@
   "subTitle": "I-personalize ang Palette at Tema",
   "completeTitle": "PaletteShift: I-personalize ang Palette at Tema",
   "description": "Baguhin ang mga setting sa iyong sariling mga kagustuhan",
+  "settingsUpdated": "Na-update ang Mga Setting",
+  "font": {
+    "formLabel": "Piliin ang Pamilya ng Font",
+    "formDescription": "Pumili ng pamilya ng font ayon sa iyong mga kagustuhan"
+  },
+  "theme": {
+    "toggleTheme": "I-toggle ang Tema",
+    "dark": "Madilim",
+    "light": "Liwanag",
+    "system": "Sistema"
+  },
   "color": {
+    "success": {
+      "general": "Na-update ang Color Palette!  {{language}}! "
+    },
     "color": "Kulay",
     "formLabel": "Piliin ang Color Palette",
     "formDescription": "I-upgrade ang iyong interface: Pumili mula sa aming mga istilo ng paleta ng kulay para sa pagiging makinis. ",
@@ -46,9 +60,9 @@
           "02": "Nawala sa ginintuang ulap, hayaang tumigil ang oras habang ikaw ay gumagala sa mga patlang ng pangarap na naliligo sa malambot na ningning ng takipsilim.",
           "03": "Sa ilalim ng ginintuang manipis na ulap, tuklasin ang mahika ng mga sandali na nasuspinde sa liwanag ng amber, kung saan ang mga alaala ay hinabi sa tela ng panahon.",
           "04": "Golden haze: kung saan ang araw ay nakakatugon sa abot-tanaw, naghahatid ng isang spell ng enchantment sa ibabaw ng lupa, nag-aapoy sa mga puso ng apoy ng inspirasyon.",
-          "05": "Sa larangan ng ginintuang manipis na ulap, ang bawat bulong ng hangin ay nagdadala ng mga alingawngaw ng mga pangarap na hindi pa mabubunyag, na nangangako ng mga pakikipagsapalaran sa mga lupaing hindi alam.",
+          "05": "Sa kaharian ng ginintuang ulap, ang bawat bulong ng hangin ay nagdadala ng mga alingawngaw ng mga pangarap na hindi pa mabubunyag, na nangangako ng mga pakikipagsapalaran sa mga lupaing hindi alam.",
           "06": "Tulad ng mga bulong ng nakaraan, ang ginintuang ulap ay nagbubunyag ng mga lihim na matagal nang nakalimutan, naghahabi ng tapiserya ng mga kuwento sa ilalim ng ginintuang kalangitan.",
-          "07": "Yakapin ang ginintuang ulap, kung saan ang bawat sandali ay nagtataglay ng pangako ng mga bagong simula, at bawat paglubog ng araw ay nagpinta sa langit ng mga pangarap.",
+          "07": "Yakapin ang ginintuang manipis na ulap, kung saan ang bawat sandali ay nagtataglay ng pangako ng mga bagong simula, at bawat paglubog ng araw ay nagpinta sa langit ng mga pangarap.",
           "08": "Sa loob ng ginintuang ulap, humanap ng aliw sa banayad na liwanag ng gabi, habang ang mga anino ay sumasayaw at ang mga pangarap ay lumilipad.",
           "09": "Golden haze: isang symphony ng init at kababalaghan, kung saan ang mundo ay naliligo sa malambot na yakap ng takip-silim."
         }
@@ -68,7 +82,7 @@
           "09": "Sunset ember: isang symphony ng mga kulay at lilim, kung saan ang kalangitan ay nagliliyab sa mga huling sandali ng liwanag ng araw, isang nakamamanghang pagpapakita ng kagandahan ng kalikasan."
         }
       },
-      "lavender": {
+      "purple": {
         "title": "Lilang Kamahalan",
         "quotes": {
           "10": "Sa kaharian ng Purple Majesty, hayaan ang iyong espiritu na pumailanglang sa mga pakpak ng imahinasyon, habang ikaw ay nalulugod sa kaluwalhatian ng kadakilaan ng kalikasan.",
@@ -93,8 +107,8 @@
           "04": "Scarlet Serenade: kung saan umaalingawngaw ang mga alingawngaw ng pagsinta, pinipinta ang mundo sa mga kulay ng nagniningas na pagnanasa at nagniningas na debosyon.",
           "05": "Sa yakap ni Scarlet Serenade, bawat sandali ay isang awit ng pag-ibig, inaawit ng puso at ibinubulong ng hangin.",
           "06": "Tulad ng mga bulong mula sa isang malayong balad, ang Scarlet Serenade ay tumatawag sa kaluluwa, na kumukuha ng mga pangako ng romansa at pakikipagsapalaran.",
-          "07": "Yakapin ang hilig ng Scarlet Serenade, kung saan ang bawat paglubog ng araw ay isang harana ng mga kulay na iskarlata, na nagpinta sa kalangitan ng walang hanggang apoy ng pag-ibig.",
-          "08": "Sa loob ng yakap ng Scarlet Serenade, humanap ng aliw sa malambot na yakap ng matamis na himig ng pag-ibig, habang ito ay naghaharana sa gabi.",
+          "07": "Yakapin ang hilig ng Scarlet Serenade, kung saan ang bawat paglubog ng araw ay isang harana ng mga kulay iskarlata, na pinipintura ang kalangitan ng walang hanggang apoy ng pag-ibig.",
+          "08": "Sa loob ng yakap ng Scarlet Serenade, hanapin ang aliw sa malambot na yakap ng matamis na himig ng pag-ibig, habang ito ay naghaharana sa gabi.",
           "09": "Scarlet Serenade: isang symphony ng pagnanais at debosyon, kung saan ang puso ay nakakahanap ng kanlungan sa yakap ng walang hanggang apoy ng pag-ibig."
         }
       },
@@ -102,7 +116,7 @@
         "title": "Silver Serenity",
         "quotes": {
           "10": "Sa katahimikan ng Silver Serenity, hayaang mawala ang iyong mga alalahanin habang naliligo ka sa tahimik na kagandahan ng gabi, nakakahanap ng kapayapaan sa katahimikan.",
-          "01": "Sa yakap ng Silver Serenity, humanap ng katahimikan sa kumikinang na liwanag ng buwan, na nagbibigay ng nakapapawing pagod na spell sa buong mundo.",
+          "01": "Sa yakap ng Silver Serenity, humanap ng katahimikan sa kumikinang na liwanag ng buwan, na nagbibigay ng nakakaaliw na spell sa buong mundo.",
           "02": "Nawala sa matahimik na yakap ng Silver Serenity, damhin ang banayad na dampi ng liwanag ng bituin na gumagabay sa iyo sa isang lugar ng panloob na kapayapaan.",
           "03": "Sa ilalim ng kumot ng Silver Serenity, tuklasin ang kagandahan ng katahimikan, kung saan ang katahimikan ay nagsasalita ng mga volume at ang kaluluwa ay nakatagpo ng aliw.",
           "04": "Silver Serenity: kung saan hinahalikan ng buwan ang lupa gamit ang kulay-pilak nitong liwanag, pinipinta ang gabi na may tahimik na kulay ng kalmado.",
@@ -115,13 +129,15 @@
       }
     },
     "toast": {
-      "success": "Na-refresh ang palette!  {{color}} scheme ng kulay! "
+      "success": "Na-refresh ang Color Palette!  {{color}} scheme ng kulay! "
     }
   },
   "languageOption": {
+    "toast": {
+      "success": "Na-update ang wika!  {{language}}! "
+    },
     "formLabel": "Piliin ang Wika:",
     "formDescription": "Piliin ang pangunahing wika na gusto mong gamitin.",
-    "cebuano": "Cebuano",
     "japanese": "Hapon",
     "tagalog": "Tagalog",
     "english": "Ingles",
