@@ -14,6 +14,7 @@ import {
   LAVENDER_COLOR,
   SCARLET_COLOR,
   SILVER_COLOR,
+  SILVER_COLOR_DARK,
   SUNSET_COLOR,
 } from "@/config";
 import { translate } from "@/i18n";
@@ -34,7 +35,7 @@ import { InputFieldGroup } from "../input-field-group";
 import { FontFamiltyType, FontItem, FontItemInterface } from "../font-item";
 
 export const SettingsContent = () => {
-  const { color, language, font, setColor, setLanguage, setFont } =
+  const { color, language, font, setColor, setLanguage, setFont, getTheme } =
     useSettingsStore();
   const { toast } = useToast();
 
@@ -78,7 +79,7 @@ export const SettingsContent = () => {
     {
       name: translate("color.options.silver.title"),
       value: "silver",
-      color: SILVER_COLOR,
+      color: getTheme() ? SILVER_COLOR : SILVER_COLOR_DARK,
       qoutes: [...generateColorQoutes("silver")],
     },
   ];
