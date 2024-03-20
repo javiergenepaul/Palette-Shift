@@ -67,7 +67,7 @@ export const SettingsContent = () => {
       name: translate("color.options.lavender.title"),
       value: "purple",
       color: LAVENDER_COLOR,
-      qoutes: [...generateColorQoutes("lavender")],
+      qoutes: [...generateColorQoutes("purple")],
     },
     {
       name: translate("color.options.scarlet.title"),
