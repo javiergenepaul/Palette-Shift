@@ -1,0 +1,131 @@
+{
+  "title": "Cambio de paleta",
+  "subTitle": "Personalizar paleta y tema",
+  "completeTitle": "PaletteShift: Personaliza la paleta y el tema",
+  "description": "Cambie la configuración según sus propias preferencias",
+  "color": {
+    "color": "Color",
+    "formLabel": "Seleccionar paleta de colores",
+    "formDescription": "Actualice su interfaz: seleccione estilos de nuestra paleta de colores para una apariencia elegante. ",
+    "options": {
+      "emerald": {
+        "title": "Elegancia esmeralda",
+        "quotes": {
+          "10": "El brillo de la esmeralda ilumina el camino hacia la elegancia eterna, proyectando un brillo radiante sobre todos los que abrazan su encanto.",
+          "01": "En las profundidades de su tono verde se encuentra la esencia de la elegancia esmeralda, símbolo de gracia y refinamiento.",
+          "02": "Adornada con el encanto de la esmeralda, la elegancia se convierte en una declaración eterna de belleza y aplomo.",
+          "03": "Con el encanto majestuoso de la esmeralda, la elegancia florece en una cautivadora sinfonía de sofisticación.",
+          "04": "La esmeralda susurra opulencia y gracia, tejiendo una historia de elegancia eterna en cada brillo.",
+          "05": "Abrace el encanto encantador de la esmeralda, donde la elegancia reina en cada faceta.",
+          "06": "En el reino de la elegancia esmeralda, cada faceta brillante cuenta una historia de gracia refinada y esplendor natural.",
+          "07": "Como una sinfonía de tonos verdes, la elegancia esmeralda baila con sofisticación y encanto.",
+          "08": "Dentro de las profundidades del brillo luminoso de la esmeralda se encuentra un mundo de elegancia y encanto incomparables.",
+          "09": "En el ámbito del lujo, la esmeralda es el epítome de la elegancia, una joya que adorna a los elegantes."
+        }
+      },
+      "azure": {
+        "title": "Bienaventuranza azul",
+        "quotes": {
+          "10": "Dicha azul: donde el cielo azul se encuentra con el mar tranquilo y todas las preocupaciones se desvanecen en el horizonte.",
+          "01": "En la extensión de la dicha azul, encuentre consuelo en la suave caricia de los cielos infinitos y las aguas tranquilas.",
+          "02": "Deja que la dicha azul te invada como una suave brisa, llevándose las preocupaciones y dejando solo paz a su paso.",
+          "03": "Bajo el dosel azul del cielo, descubra la serenidad ilimitada que susurra en el corazón de la dicha.",
+          "04": "Dicha azul: donde la inmensidad del cielo se encuentra con la profundidad del océano, pintando un retrato de tranquilidad.",
+          "05": "En el reino de la dicha azul, cada momento es una pincelada de serenidad en el lienzo de la vida.",
+          "06": "Encuentra refugio en las profundidades azules de la dicha, donde el alma encuentra refugio en el abrazo del azul ilimitado.",
+          "07": "Dicha azul: una sinfonía de calma, donde el canto del mar se encuentra con la melodía del cielo.",
+          "08": "Abraza el horizonte azul de la felicidad, donde cada tono de azul encierra la promesa de paz.",
+          "09": "En la extensión azul de la bienaventuranza, deja que tu espíritu se eleve con alas de tranquilidad y gracia."
+        }
+      },
+      "golden": {
+        "title": "Neblina dorada",
+        "quotes": {
+          "10": "En la bruma dorada del crepúsculo, deja que tus preocupaciones se desvanezcan en el horizonte, mientras el día da paso a los tranquilos susurros de la noche.",
+          "01": "En el abrazo de la neblina dorada, encuentra calidez en la suave caricia de la luz del sol, pintando el mundo en tonos ámbar y dorado.",
+          "02": "Perdido en la bruma dorada, deja que el tiempo se detenga mientras paseas por campos de sueños bañados por el suave resplandor del crepúsculo.",
+          "03": "Debajo de la neblina dorada, descubra la magia de los momentos suspendidos en la luz ámbar, donde los recuerdos se entretejen en la trama del tiempo.",
+          "04": "Bruma dorada: donde el sol se encuentra con el horizonte, lanzando un hechizo de encanto sobre la tierra, encendiendo los corazones con el fuego de la inspiración.",
+          "05": "En el reino de la neblina dorada, cada susurro del viento lleva ecos de sueños aún por desarrollarse, que prometen aventuras en tierras desconocidas.",
+          "06": "Como susurros del pasado, la neblina dorada revela secretos olvidados hace mucho tiempo, tejiendo un tapiz de historias bajo el cielo dorado.",
+          "07": "Abraza la bruma dorada, donde cada momento encierra la promesa de nuevos comienzos y cada atardecer pinta el cielo con sueños.",
+          "08": "Dentro de la neblina dorada, encuentre consuelo en el suave resplandor de la luz del atardecer, mientras las sombras bailan y los sueños vuelan.",
+          "09": "Neblina dorada: una sinfonía de calidez y asombro, donde el mundo está bañado en el suave abrazo del crepúsculo."
+        }
+      },
+      "sunset": {
+        "title": "Ascua del atardecer",
+        "quotes": {
+          "10": "En el abrazo de las brasas del atardecer, deje de lado las preocupaciones del día, mientras el resplandor ardiente ilumina el camino hacia la paz y la tranquilidad.",
+          "01": "En el resplandor de las brasas del atardecer, sienta la calidez de la luz del día que se desvanece besando la tierra con tonos carmesí y dorado, un abrazo final antes de la noche.",
+          "02": "Perdido en la fascinante danza de las brasas del atardecer, deja que las llamas del crepúsculo enciendan tu alma con pasión y posibilidades, pintando el cielo con sueños.",
+          "03": "Bajo el dosel de las brasas del atardecer, descubra la magia de los momentos suspendidos en la luz ardiente, donde los recuerdos quedan grabados en el lienzo del cielo nocturno.",
+          "04": "Brasas del atardecer: donde el día llega a su fin, proyectando un espectáculo de fuego en el horizonte, una sinfonía de colores que enciende el corazón con asombro.",
+          "05": "En el reino de las brasas del atardecer, cada destello de luz pinta una historia de finales y comienzos, un tapiz de emociones entretejidas en la tela del crepúsculo.",
+          "06": "Como brasas de un fuego moribundo, las brasas del atardecer susurran secretos del viaje del día, proyectando sombras que bailan con la luz que se desvanece.",
+          "07": "Abrace la calidez de las brasas del atardecer, donde cada rayo de luz encierra la promesa de un nuevo amanecer y cada anochecer es un recordatorio del ciclo eterno de la vida.",
+          "08": "Dentro del resplandor de las brasas del atardecer, encuentre consuelo en los tranquilos momentos de reflexión, mientras el día se desvanece en el suave abrazo de la noche.",
+          "09": "Brasas del atardecer: una sinfonía de matices y sombras, donde el cielo se enciende en los últimos momentos del día, una muestra impresionante de la belleza de la naturaleza."
+        }
+      },
+      "lavender": {
+        "title": "Majestad Púrpura",
+        "quotes": {
+          "10": "En el reino de Purple Majesty, deja que tu espíritu se eleve con las alas de la imaginación mientras disfrutas de la gloria de la grandeza de la naturaleza.",
+          "01": "En el reino de Purple Majesty, deja que el tono real reine supremo, pintando el mundo con un esplendor real.",
+          "02": "Perdido en el encantador abrazo de Purple Majesty, siente la magia del beso del crepúsculo cuando el día da paso a la noche.",
+          "03": "Debajo del manto de Purple Majesty, descubre la riqueza del tapiz de la vida, tejido con hilos de pasión y gracia.",
+          "04": "Purple Majesty: donde el cielo se encuentra con la tierra en una majestuosa danza del crepúsculo, lanzando un hechizo de asombro y asombro.",
+          "05": "En el reino de Purple Majesty, cada momento es una sinfonía de tonos violetas, que hacen eco de la grandeza de reyes y reinas.",
+          "06": "Como susurros de un reino lejano, la Majestad Púrpura llama con promesas de sueños cumplidos y destinos abrazados.",
+          "07": "Abrace la elegancia de Purple Majesty, donde cada atardecer es una coronación de colores, pintando el cielo con tonos de realeza.",
+          "08": "En el abrazo de Purple Majesty, encuentre consuelo en la tranquila belleza del crepúsculo, mientras el día da paso con gracia a la noche.",
+          "09": "Purple Majesty: un tapiz de sueños y deseos, donde el corazón encuentra refugio en la serenidad del abrazo del crepúsculo."
+        }
+      },
+      "scarlet": {
+        "title": "Serenata escarlata",
+        "quotes": {
+          "10": "En la melodía de Scarlet Serenade, deja que tu alma baile al ritmo de la pasión, mientras te entregas a la dulce serenata del canto del amor.",
+          "01": "En la sinfonía de Scarlet Serenade, deja que la melodía carmesí baile en tu alma, agitando la pasión y despertando los corazones.",
+          "02": "Perdido en el encantador abrazo de Scarlet Serenade, siente el ritmo de la vida pulsando a través de cada nota en tonos escarlata.",
+          "03": "Debajo del dosel de Scarlet Serenade, descubre el poder de la melodía del amor, tejiendo su camino a través del tapiz del tiempo.",
+          "04": "Scarlet Serenade: donde resuenan los ecos de la pasión, pintando el mundo en tonos de ardiente deseo y ardiente devoción.",
+          "05": "En el abrazo de Scarlet Serenade, cada momento es una canción de amor, cantada por el corazón y susurrada por el viento.",
+          "06": "Como susurros de una balada lejana, Scarlet Serenade llama al alma, atrayendo con promesas de romance y aventuras.",
+          "07": "Abraza la pasión de Scarlet Serenade, donde cada atardecer es una serenata de tonos escarlatas, pintando el cielo con la llama eterna del amor.",
+          "08": "Dentro del abrazo de Scarlet Serenade, encuentra consuelo en el tierno abrazo de la dulce melodía del amor, mientras le da una serenata a la noche.",
+          "09": "Serenata Escarlata: una sinfonía de deseo y devoción, donde el corazón encuentra refugio en el abrazo de la llama eterna del amor."
+        }
+      },
+      "silver": {
+        "title": "Serenidad plateada",
+        "quotes": {
+          "10": "En la serenidad de Silver Serenity, deje que sus preocupaciones se desvanezcan mientras disfruta de la tranquila belleza de la noche y encuentra la paz en la quietud.",
+          "01": "En el abrazo de Silver Serenity, encuentre tranquilidad en el brillante resplandor de la luz de la luna, lanzando un hechizo relajante sobre el mundo.",
+          "02": "Perdido en el sereno abrazo de Silver Serenity, siente el suave toque de la luz de las estrellas que te guía a un lugar de paz interior.",
+          "03": "Debajo del manto de Silver Serenity, descubra la belleza de la quietud, donde el silencio dice mucho y el alma encuentra consuelo.",
+          "04": "Silver Serenity: donde la luna besa la tierra con su luz plateada, pintando la noche con un tono tranquilo de calma.",
+          "05": "En el reino de Silver Serenity, cada respiración es un susurro de serenidad, que hace eco de la tranquila belleza de una noche tranquila.",
+          "06": "Como susurros de una sinfonía celestial, Silver Serenity atrae con promesas de serenidad y armonía interior.",
+          "07": "Abrace la tranquilidad de Silver Serenity, donde cada estrella es un recordatorio de la belleza que se encuentra en los momentos de tranquila contemplación.",
+          "08": "En el abrazo de Silver Serenity, encuentra consuelo en el suave abrazo de la noche, mientras el mundo duerme bajo un manto de estrellas.",
+          "09": "Silver Serenity: un santuario de paz y calma, donde el alma encuentra refugio en el suave abrazo del cielo nocturno."
+        }
+      }
+    },
+    "toast": {
+      "success": "¡Paleta renovada!  {{color}} ¡esquema de colores! "
+    }
+  },
+  "languageOption": {
+    "formLabel": "Seleccione el idioma:",
+    "formDescription": "Elija el idioma principal que desea utilizar.",
+    "cebuano": "cebuano",
+    "japanese": "japonés",
+    "tagalog": "tagalo",
+    "english": "Inglés",
+    "arabic": "Arábica",
+    "spanish": "Español"
+  }
+}

@@ -5,6 +5,7 @@
   "description": "Change the settings on your own preferences",
   "color": {
     "color": "Color",
+    "formLabel": "Select Color Palette",
     "formDescription": "Upgrade your interface: Select from our color palette styles for a sleek. Customize your browsing experience, your way.",
     "options": {
       "emerald": {
@@ -116,5 +117,15 @@
     "toast": {
       "success": "Palette refreshed! Dive into a smoother browsing experience with our {{color}} color scheme! 🌈✨"
     }
+  },
+  "languageOption": {
+    "formLabel": "Select Language:",
+    "formDescription": "Choose the primary language you want to use.",
+    "cebuano": "Cebuano",
+    "japanese": "Japanese",
+    "tagalog": "Tagalog",
+    "english": "English",
+    "arabic": "Arabic",
+    "spanish": "Spanish"
   }
 }
