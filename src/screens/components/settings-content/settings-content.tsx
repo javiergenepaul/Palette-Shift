@@ -220,7 +220,6 @@ export const SettingsContent = () => {
           )}
         </RadioGroup>
       </InputFieldGroup>
-
       <InputFieldGroup
         label={translate("languageOption.formLabel")}
         description={translate("languageOption.formDescription")}
@@ -228,7 +227,7 @@ export const SettingsContent = () => {
         <RadioGroup
           value={language}
           onValueChange={onChangeLanguage}
-          className="grid-cols-5 gap-4 pt-2 max-w-3xl"
+          className="grid-cols-3 lg:grid-cols-5 gap-4 pt-2 max-w-3xl"
         >
           {LANGUAGE_OPTIONS.map(
             (langProp: SettingOptionLangRadioInterface, index: React.Key) => {
