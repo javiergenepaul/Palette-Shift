@@ -10,18 +10,13 @@ import {
 } from "@/config";
 import { translate } from "@/i18n";
 import { generateColorQoutes } from "@/lib";
-import { Color } from "@/stores";
-import { SettingsOptionColorRadio } from "./settings-option-color-radio";
-
-export interface ColorOptionsInterface {
-  value: Color;
-  name: string;
-  color: string;
-  qoutes: string[];
-}
+import {
+  SettingsOptionColorRadio,
+  SettingsOptionRadioInterface,
+} from "../color-radio";
 
 export const SettingsContent = () => {
-  const COLOR_PALETTE_AVAILABLE: ColorOptionsInterface[] = [
+  const COLOR_PALETTE_AVAILABLE: SettingsOptionRadioInterface[] = [
     {
       name: translate("color.options.emerald.title"),
       value: "emerald",
@@ -74,7 +69,7 @@ export const SettingsContent = () => {
       className="max-w-[800px] grid-cols-3 gap-4 pt-2"
     >
       {COLOR_PALETTE_AVAILABLE.map(
-        (themeProps: ColorOptionsInterface, index: React.Key) => {
+        (themeProps: SettingsOptionRadioInterface, index: React.Key) => {
           return <SettingsOptionColorRadio key={index} {...themeProps} />;
         }
       )}

@@ -1,14 +1,9 @@
 import { Label, RadioGroupItem } from "@/components";
-import { Color } from "@/stores";
+import { SettingsOptionRadioInterface } from "./settings-option-color-radio-props";
 
-interface SettingsOptionRadioInterface {
-  value: Color;
-  name: string;
-  color: string;
-  qoutes: string[];
-}
-
-export const SettingsOptionColorRadio = (props: SettingsOptionRadioInterface) => {
+export const SettingsOptionColorRadio = (
+  props: SettingsOptionRadioInterface
+) => {
   const { name, value, color } = props;
   return (
     <div>
