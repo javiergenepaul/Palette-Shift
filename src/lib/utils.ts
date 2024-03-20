@@ -1,5 +1,5 @@
 import { TxKeyPath, translate } from "@/i18n";
-import { Color } from "@/stores";
+import { Color } from "@/screens";
 import { type ClassValue, clsx } from "clsx";
 import { twMerge } from "tailwind-merge";
 
@@ -16,11 +16,11 @@ export const generateColorQoutes = (color: Color): string[] => {
   const colorQoutes: string[] = [];
 
   for (let i = 1; i <= 10; i++) {
-    let quoteKey = `color.options.${color}.quotes.${String(i).padStart(
+    const quoteKey = `color.options.${color}.quotes.${String(i).padStart(
       2,
       "0"
     )}`;
-    let quoteText: string = translate(quoteKey as TxKeyPath);
+    const quoteText: string = translate(quoteKey as TxKeyPath);
 
     colorQoutes.push(quoteText);
   }
