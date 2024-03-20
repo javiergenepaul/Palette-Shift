@@ -11,13 +11,22 @@ import {
 import { translate } from "@/i18n";
 import { generateColorQoutes } from "@/lib";
 import {
+  Color,
   SettingsOptionColorRadio,
   SettingsOptionRadioInterface,
 } from "../color-radio";
 import { useSettingsStore } from "@/stores";
+import {
+  LanguageType,
+  SettingOptionLangRadio,
+  SettingOptionLangRadioInterface,
+} from "../language-radio";
+import { ES_FLAG, JP_FLAG, PH_FLAG, SA_FLAG, US_FLAG } from "@/assets";
+import { InputFieldGroup } from "../input-field-group";
 
 export const SettingsContent = () => {
-  const { color } = useSettingsStore();
+  const { color, setColor, language, setLanguage } = useSettingsStore();
+
   const COLOR_PALETTE_AVAILABLE: SettingsOptionRadioInterface[] = [
     {
       name: translate("color.options.emerald.title"),
@@ -45,7 +54,7 @@ export const SettingsContent = () => {
     },
     {
       name: translate("color.options.lavender.title"),
-      value: "lavender",
+      value: "purple",
       color: LAVENDER_COLOR,
       qoutes: [...generateColorQoutes("lavender")],
     },
@@ -63,22 +72,78 @@ export const SettingsContent = () => {
     },
   ];
 
-  const onChangeColor = () => {
-    return;
+  const LANGUAGE_OPTIONS: SettingOptionLangRadioInterface[] = [
+    {
+      value: "en",
+      name: translate("languageOption.english"),
+      icon: <img width={"170px"} height={"80px"} src={US_FLAG} />,
+    },
+    {
+      value: "ja",
+      name: translate("languageOption.japanese"),
+      icon: <img width={"170px"} height={"80px"} src={JP_FLAG} />,
+    },
+    {
+      value: "fil",
+      name: translate("languageOption.tagalog"),
+      icon: <img width={"170px"} height={"80px"} src={PH_FLAG} />,
+    },
+    {
+      value: "ar",
+      name: translate("languageOption.arabic"),
+      icon: <img width={"170px"} height={"80px"} src={SA_FLAG} />,
+    },
+    {
+      value: "es",
+      name: translate("languageOption.spanish"),
+      icon: <img width={"170px"} height={"80px"} src={ES_FLAG} />,
+    },
+  ];
+
+  const onChangeColor = (value: Color) => {
+    setColor(value);
+  };
+
+  const onChangeLanguage = (value: LanguageType) => {
+    setLanguage(value);
   };
 
   return (
-    <RadioGroup
-      onValueChange={onChangeColor}
-      value={color}
-      defaultValue={color}
-      className="max-w-[800px] grid-cols-3 gap-4 pt-2"
-    >
-      {COLOR_PALETTE_AVAILABLE.map(
-        (themeProps: SettingsOptionRadioInterface, index: React.Key) => {
-          return <SettingsOptionColorRadio key={index} {...themeProps} />;
-        }
-      )}
-    </RadioGroup>
+    <div className="flex flex-col gap-8">
+      <InputFieldGroup
+        label={translate("color.formLabel")}
+        description={translate("color.formDescription")}
+      >
+        <RadioGroup
+          onValueChange={onChangeColor}
+          value={color}
+          defaultValue={color}
+          className="grid-cols-3 gap-4 pt-2 max-w-3xl"
+        >
+          {COLOR_PALETTE_AVAILABLE.map(
+            (themeProps: SettingsOptionRadioInterface, index: React.Key) => {
+              return <SettingsOptionColorRadio key={index} {...themeProps} />;
+            }
+          )}
+        </RadioGroup>
+      </InputFieldGroup>
+
+      <InputFieldGroup
+        label={translate("languageOption.formLabel")}
+        description={translate("languageOption.formDescription")}
+      >
+        <RadioGroup
+          value={language}
+          onValueChange={onChangeLanguage}
+          className="grid-cols-5 gap-4 pt-2 max-w-3xl"
+        >
+          {LANGUAGE_OPTIONS.map(
+            (langProp: SettingOptionLangRadioInterface, index: React.Key) => {
+              return <SettingOptionLangRadio key={index} {...langProp} />;
+            }
+          )}
+        </RadioGroup>
+      </InputFieldGroup>
+    </div>
   );
 };
