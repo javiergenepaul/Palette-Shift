@@ -1,11 +1,11 @@
 import i18n from "i18next";
 import { initReactI18next } from "react-i18next";
 import LanguageDetector from "i18next-browser-languagedetector";
-import { DEFAULT_LANGUAGE } from "@/stores";
-import { EN, JA } from "./locale";
+import { DEFAULT_LANGUAGE, LANG_LOCAL } from "@/stores";
+import * as LOCALE from "./locale";
 
 // Check local storage for preferred language
-const preferredLanguage = localStorage.getItem("i18nextLng");
+const preferredLanguage = localStorage.getItem(LANG_LOCAL);
 
 i18n
   .use(LanguageDetector)
@@ -18,10 +18,19 @@ i18n
     },
     resources: {
       en: {
-        translation: EN,
+        translation: LOCALE.EN,
       },
       ja: {
-        translation: JA,
+        translation: LOCALE.JA,
+      },
+      fil: {
+        translation: LOCALE.FIL,
+      },
+      ar: {
+        translation: LOCALE.AR,
+      },
+      es: {
+        translation: LOCALE.ES,
       },
     },
   });
@@ -34,10 +43,10 @@ i18n.changeLanguage(
  * Builds up valid keypaths for translations.
  * Update to your default locale of choice if not English.
  */
-type DefaultLocale = typeof EN;
+type DefaultLocale = typeof LOCALE.EN;
 type TxKeyPath = RecursiveKeyOf<DefaultLocale>;
-type RecursiveKeyOf<TObj extends Record<string, any>> = {
-  [TKey in keyof TObj & string]: TObj[TKey] extends Record<string, any>
+type RecursiveKeyOf<TObj extends Record<string, unknown>> = {
+  [TKey in keyof TObj & string]: TObj[TKey] extends Record<string, unknown>
     ? `${TKey}` | `${TKey}.${RecursiveKeyOf<TObj[TKey]>}`
     : `${TKey}`;
 }[keyof TObj & string];

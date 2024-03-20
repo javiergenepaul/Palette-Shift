@@ -1,9 +1,11 @@
 import { Theme, useSettingsStore } from "@/stores";
 import { useEffect } from "react";
 import { ThemeProviderProps } from "./theme-provider-props";
+import { useTranslation } from "react-i18next";
 
 export const ThemeProvider: React.FC<ThemeProviderProps> = ({ children }) => {
-  const { theme, setTheme, color } = useSettingsStore();
+  const { i18n } = useTranslation();
+  const { theme, setTheme, color, language } = useSettingsStore();
 
   useEffect(() => {
     const root = window.document.documentElement;
@@ -17,15 +19,17 @@ export const ThemeProvider: React.FC<ThemeProviderProps> = ({ children }) => {
       "silver"
     );
 
-    root.classList.add("silver");
-
     if (color) {
       root.classList.add(color);
     } else {
       // set default when color palette is empty
       root.classList.add("emerald");
     }
-  }, []);
+  }, [color]);
+
+  useEffect(() => {
+    i18n.changeLanguage(language);
+  }, [i18n, language]);
 
   useEffect(() => {
     const root = window.document.documentElement;
@@ -50,6 +54,7 @@ export const ThemeProvider: React.FC<ThemeProviderProps> = ({ children }) => {
     } else if (!storedTheme && "system" !== theme) {
       setTheme("system");
     }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
   return <>{children}</>;

@@ -7,12 +7,18 @@ import {
   Color,
   FONT_LOCAL,
   FontType,
+  DEFAULT_LANGUAGE,
+  LanguageType,
+  LANG_LOCAL,
 } from "./settings-store-props";
 
 export const useSettingsStore = create<SettingStoreInterface>((set, get) => ({
   theme: localStorage.getItem(THEME_LOCAL) as Theme | undefined,
   color: localStorage.getItem(COLOR_LOCAL) as Color | "emerald",
   font: localStorage.getItem(FONT_LOCAL) as FontType | "inter",
+  language:
+    (localStorage.getItem(LANG_LOCAL) as LanguageType) || DEFAULT_LANGUAGE,
+  setLanguage: (language: LanguageType) => set({ language }),
   setColor: (color: Color) => {
     localStorage.setItem(COLOR_LOCAL, color as string);
     set({ color });

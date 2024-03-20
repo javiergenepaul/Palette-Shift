@@ -1,0 +1,131 @@
+{
+  "title": "PaletteShift",
+  "subTitle": "I-personalize ang Palette at Tema",
+  "completeTitle": "PaletteShift: I-personalize ang Palette at Tema",
+  "description": "Baguhin ang mga setting sa iyong sariling mga kagustuhan",
+  "color": {
+    "color": "Kulay",
+    "formLabel": "Piliin ang Color Palette",
+    "formDescription": "I-upgrade ang iyong interface: Pumili mula sa aming mga istilo ng paleta ng kulay para sa pagiging makinis. ",
+    "options": {
+      "emerald": {
+        "title": "Emerald Elegance",
+        "quotes": {
+          "10": "Ang kinang ni Emerald ay nagbibigay liwanag sa landas tungo sa walang hanggang kagandahan, na nagbibigay ng maningning na liwanag sa lahat ng yumakap sa pang-akit nito.",
+          "01": "Sa kaibuturan ng kanyang luntiang kulay ay namamalagi ang diwa ng esmeralda na kagandahan, isang simbolo ng biyaya at pagpipino.",
+          "02": "Pinalamutian ng pang-akit ng esmeralda, ang kagandahan ay nagiging isang walang hanggang pahayag ng kagandahan at poise.",
+          "03": "Sa marangal na alindog ng esmeralda, ang kagandahan ay namumulaklak sa isang mapang-akit na symphony ng pagiging sopistikado.",
+          "04": "Si Emerald ay bumubulong ng karangyaan at biyaya, naghahabi ng isang kuwento ng walang hanggang kagandahan sa bawat kinang.",
+          "05": "Yakapin ang kaakit-akit na pang-akit ng esmeralda, kung saan ang kagandahan ay naghahari sa bawat aspeto.",
+          "06": "Sa larangan ng emerald elegance, ang bawat shimmering facet ay nagsasabi ng isang kuwento ng pinong biyaya at natural na karilagan.",
+          "07": "Tulad ng isang symphony ng berdeng kulay, ang emerald elegance ay sumasayaw na may sopistikado at pang-akit.",
+          "08": "Sa kaibuturan ng maningning na ningning ng esmeralda ay naroon ang isang mundo ng walang kapantay na kagandahan at kagandahan.",
+          "09": "Sa larangan ng karangyaan, nakatayo ang esmeralda bilang ehemplo ng kagandahan, isang hiyas na nagpapalamuti sa kaaya-aya."
+        }
+      },
+      "azure": {
+        "title": "Azure Bliss",
+        "quotes": {
+          "10": "Azure bliss: kung saan ang azure na kalangitan ay nakakatugon sa tahimik na dagat, at lahat ng alalahanin ay kumukupas sa abot-tanaw.",
+          "01": "Sa kalawakan ng azure bliss, hanapin ang aliw sa banayad na haplos ng walang katapusang kalangitan at tahimik na tubig.",
+          "02": "Hayaan ang azure bliss na dumaan sa iyo tulad ng isang banayad na simoy ng hangin, na nag-aalis ng mga alalahanin at nag-iiwan lamang ng kapayapaan sa kanyang kalagayan.",
+          "03": "Sa ilalim ng azure canopy ng langit, tuklasin ang walang hangganang katahimikan na bumubulong sa puso ng kaligayahan.",
+          "04": "Azure bliss: kung saan ang kalawakan ng kalangitan ay nakakatugon sa lalim ng karagatan, nagpinta ng larawan ng katahimikan.",
+          "05": "Sa larangan ng azure bliss, bawat sandali ay isang brushstroke ng katahimikan sa canvas ng buhay.",
+          "06": "Maghanap ng kanlungan sa azure depth ng kaligayahan, kung saan ang kaluluwa ay nakahanap ng santuwaryo sa yakap ng walang hanggan na asul.",
+          "07": "Azure bliss: isang symphony ng kalmado, kung saan ang awit ng dagat ay nakakatugon sa himig ng kalangitan.",
+          "08": "Yakapin ang azure horizon ng kaligayahan, kung saan ang bawat kulay ng asul ay nagtataglay ng pangako ng kapayapaan.",
+          "09": "Sa azure na kalawakan ng kaligayahan, hayaan ang iyong espiritu na pumailanglang sa mga pakpak ng katahimikan at biyaya."
+        }
+      },
+      "golden": {
+        "title": "Golden Haze",
+        "quotes": {
+          "10": "Sa ginintuang ulap ng takipsilim, hayaang mawala ang iyong mga alalahanin sa abot-tanaw, habang ang araw ay nagbibigay daan sa mga tahimik na bulong ng gabi.",
+          "01": "Sa yakap ng ginintuang ulap, hanapin ang init sa banayad na haplos ng sikat ng araw, pinipinta ang mundo sa mga kulay ng amber at ginto.",
+          "02": "Nawala sa ginintuang ulap, hayaang tumigil ang oras habang ikaw ay gumagala sa mga patlang ng pangarap na naliligo sa malambot na ningning ng takipsilim.",
+          "03": "Sa ilalim ng ginintuang manipis na ulap, tuklasin ang mahika ng mga sandali na nasuspinde sa liwanag ng amber, kung saan ang mga alaala ay hinabi sa tela ng panahon.",
+          "04": "Golden haze: kung saan ang araw ay nakakatugon sa abot-tanaw, naghahatid ng isang spell ng enchantment sa ibabaw ng lupa, nag-aapoy sa mga puso ng apoy ng inspirasyon.",
+          "05": "Sa larangan ng ginintuang manipis na ulap, ang bawat bulong ng hangin ay nagdadala ng mga alingawngaw ng mga pangarap na hindi pa mabubunyag, na nangangako ng mga pakikipagsapalaran sa mga lupaing hindi alam.",
+          "06": "Tulad ng mga bulong ng nakaraan, ang ginintuang ulap ay nagbubunyag ng mga lihim na matagal nang nakalimutan, naghahabi ng tapiserya ng mga kuwento sa ilalim ng ginintuang kalangitan.",
+          "07": "Yakapin ang ginintuang ulap, kung saan ang bawat sandali ay nagtataglay ng pangako ng mga bagong simula, at bawat paglubog ng araw ay nagpinta sa langit ng mga pangarap.",
+          "08": "Sa loob ng ginintuang ulap, humanap ng aliw sa banayad na liwanag ng gabi, habang ang mga anino ay sumasayaw at ang mga pangarap ay lumilipad.",
+          "09": "Golden haze: isang symphony ng init at kababalaghan, kung saan ang mundo ay naliligo sa malambot na yakap ng takip-silim."
+        }
+      },
+      "sunset": {
+        "title": "Sunset Ember",
+        "quotes": {
+          "10": "Sa yakap ng paglubog ng araw, bitawan ang mga alalahanin sa araw, habang ang nagniningas na liwanag ay nagliliwanag sa landas tungo sa kapayapaan at katahimikan.",
+          "01": "Sa ningning ng paglubog ng araw, damhin ang init ng kumukupas na liwanag ng araw na humahalik sa lupa na may mga kulay ng pulang-pula at ginto, isang huling yakap bago ang gabi.",
+          "02": "Nawala sa nakakabighaning sayaw ng paglubog ng araw, hayaan ang apoy ng takip-silim na mag-apoy sa iyong kaluluwa nang may pagnanasa at posibilidad, pagpinta sa langit na may mga pangarap.",
+          "03": "Sa ilalim ng canopy ng paglubog ng araw, tuklasin ang mahika ng mga sandali na nasuspinde sa nagniningas na liwanag, kung saan ang mga alaala ay nakaukit sa canvas ng kalangitan sa gabi.",
+          "04": "Sunset ember: kung saan ang araw ay nagtatapos, naghahagis ng isang maapoy na palabas sa abot-tanaw, isang simponya ng mga kulay na nag-aapoy sa puso nang may pagkamangha.",
+          "05": "Sa larangan ng paglubog ng araw, ang bawat kisap ng liwanag ay nagpinta ng isang kuwento ng mga wakas at simula, isang tapiserya ng mga emosyon na hinabi sa tela ng takipsilim.",
+          "06": "Tulad ng mga baga ng namamatay na apoy, ang paglubog ng araw na ember ay bumubulong ng mga lihim ng paglalakbay sa maghapon, na naglalabas ng mga anino na sumasayaw sa kumukupas na liwanag.",
+          "07": "Yakapin ang init ng paglubog ng araw, kung saan ang bawat sinag ng liwanag ay nagtataglay ng pangako ng isang bagong bukang-liwayway, at bawat dapit-hapon ay isang paalala ng walang hanggang ikot ng buhay.",
+          "08": "Sa loob ng ningning ng paglubog ng araw, humanap ng aliw sa mga tahimik na sandali ng pagmuni-muni, habang ang araw ay kumukupas sa banayad na yakap ng gabi.",
+          "09": "Sunset ember: isang symphony ng mga kulay at lilim, kung saan ang kalangitan ay nagliliyab sa mga huling sandali ng liwanag ng araw, isang nakamamanghang pagpapakita ng kagandahan ng kalikasan."
+        }
+      },
+      "lavender": {
+        "title": "Lilang Kamahalan",
+        "quotes": {
+          "10": "Sa kaharian ng Purple Majesty, hayaan ang iyong espiritu na pumailanglang sa mga pakpak ng imahinasyon, habang ikaw ay nalulugod sa kaluwalhatian ng kadakilaan ng kalikasan.",
+          "01": "Sa kaharian ng Purple Majesty, hayaang maghari ang maharlikang kulay, ipinipinta ang mundo sa marangal na kariktan.",
+          "02": "Nawala sa kaakit-akit na yakap ng Purple Majesty, damhin ang mahika ng halik ng takipsilim habang ang araw ay nagbibigay daan sa gabi.",
+          "03": "Sa ilalim ng balabal ng Purple Majesty, tuklasin ang yaman ng tapiserya ng buhay, hinabi ng mga sinulid ng pagsinta at biyaya.",
+          "04": "Purple Majesty: kung saan ang langit ay nakakatugon sa lupa sa isang marilag na sayaw ng takip-silim, na nagpapamalas ng pagkamangha at pagkamangha.",
+          "05": "Sa kaharian ng Purple Majesty, ang bawat sandali ay isang simponya ng mga kulay violet, na umaalingawngaw sa kadakilaan ng mga hari at reyna.",
+          "06": "Tulad ng mga bulong mula sa isang malayong kaharian, ang Purple Majesty ay umaalingawngaw sa mga pangako ng mga pangarap na natupad at mga tadhana ay niyakap.",
+          "07": "Yakapin ang kagandahan ng Purple Majesty, kung saan ang bawat paglubog ng araw ay isang koronasyon ng mga kulay, pagpipinta sa kalangitan sa mga kulay ng royalty.",
+          "08": "Sa loob ng yakap ng Purple Majesty, humanap ng aliw sa tahimik na kagandahan ng takip-silim, habang ang araw ay maganda na nagbubunga sa gabi.",
+          "09": "Purple Majesty: isang tapiserya ng mga pangarap at pagnanasa, kung saan ang puso ay nakakahanap ng kanlungan sa katahimikan ng yakap ng takipsilim."
+        }
+      },
+      "scarlet": {
+        "title": "Scarlet Serenade",
+        "quotes": {
+          "10": "Sa himig ng Scarlet Serenade, hayaang sumayaw ang iyong kaluluwa sa ritmo ng pagsinta, habang sumusuko ka sa awit ng matamis na harana ng pag-ibig.",
+          "01": "Sa symphony ng Scarlet Serenade, hayaang sumayaw ang pulang-pula na melody sa iyong kaluluwa, pumukaw ng pagsinta at paggising sa mga puso.",
+          "02": "Nawala sa kaakit-akit na yakap ng Scarlet Serenade, damhin ang ritmo ng buhay na pumipintig sa bawat iskarlata na kulay.",
+          "03": "Sa ilalim ng canopy ng Scarlet Serenade, tuklasin ang kapangyarihan ng himig ng pag-ibig, na hinahabi ang daan sa tapiserya ng panahon.",
+          "04": "Scarlet Serenade: kung saan umaalingawngaw ang mga alingawngaw ng pagsinta, pinipinta ang mundo sa mga kulay ng nagniningas na pagnanasa at nagniningas na debosyon.",
+          "05": "Sa yakap ni Scarlet Serenade, bawat sandali ay isang awit ng pag-ibig, inaawit ng puso at ibinubulong ng hangin.",
+          "06": "Tulad ng mga bulong mula sa isang malayong balad, ang Scarlet Serenade ay tumatawag sa kaluluwa, na kumukuha ng mga pangako ng romansa at pakikipagsapalaran.",
+          "07": "Yakapin ang hilig ng Scarlet Serenade, kung saan ang bawat paglubog ng araw ay isang harana ng mga kulay na iskarlata, na nagpinta sa kalangitan ng walang hanggang apoy ng pag-ibig.",
+          "08": "Sa loob ng yakap ng Scarlet Serenade, humanap ng aliw sa malambot na yakap ng matamis na himig ng pag-ibig, habang ito ay naghaharana sa gabi.",
+          "09": "Scarlet Serenade: isang symphony ng pagnanais at debosyon, kung saan ang puso ay nakakahanap ng kanlungan sa yakap ng walang hanggang apoy ng pag-ibig."
+        }
+      },
+      "silver": {
+        "title": "Silver Serenity",
+        "quotes": {
+          "10": "Sa katahimikan ng Silver Serenity, hayaang mawala ang iyong mga alalahanin habang naliligo ka sa tahimik na kagandahan ng gabi, nakakahanap ng kapayapaan sa katahimikan.",
+          "01": "Sa yakap ng Silver Serenity, humanap ng katahimikan sa kumikinang na liwanag ng buwan, na nagbibigay ng nakapapawing pagod na spell sa buong mundo.",
+          "02": "Nawala sa matahimik na yakap ng Silver Serenity, damhin ang banayad na dampi ng liwanag ng bituin na gumagabay sa iyo sa isang lugar ng panloob na kapayapaan.",
+          "03": "Sa ilalim ng kumot ng Silver Serenity, tuklasin ang kagandahan ng katahimikan, kung saan ang katahimikan ay nagsasalita ng mga volume at ang kaluluwa ay nakatagpo ng aliw.",
+          "04": "Silver Serenity: kung saan hinahalikan ng buwan ang lupa gamit ang kulay-pilak nitong liwanag, pinipinta ang gabi na may tahimik na kulay ng kalmado.",
+          "05": "Sa kaharian ng Silver Serenity, bawat paghinga ay isang bulong ng katahimikan, na umaalingawngaw sa tahimik na kagandahan ng isang mapayapang gabi.",
+          "06": "Tulad ng mga bulong mula sa isang celestial symphony, ang Silver Serenity ay umaakay ng mga pangako ng katahimikan at panloob na pagkakaisa.",
+          "07": "Yakapin ang katahimikan ng Silver Serenity, kung saan ang bawat bituin ay isang paalala ng kagandahang makikita sa mga sandali ng tahimik na pagmumuni-muni.",
+          "08": "Sa loob ng yakap ng Silver Serenity, humanap ng aliw sa banayad na yakap ng gabi, habang ang mundo ay natutulog sa ilalim ng kumot ng mga bituin.",
+          "09": "Silver Serenity: isang santuwaryo ng kapayapaan at kalmado, kung saan ang kaluluwa ay nakakahanap ng kanlungan sa banayad na yakap ng kalangitan sa gabi."
+        }
+      }
+    },
+    "toast": {
+      "success": "Na-refresh ang palette!  {{color}} scheme ng kulay! "
+    }
+  },
+  "languageOption": {
+    "formLabel": "Piliin ang Wika:",
+    "formDescription": "Piliin ang pangunahing wika na gusto mong gamitin.",
+    "cebuano": "Cebuano",
+    "japanese": "Hapon",
+    "tagalog": "Tagalog",
+    "english": "Ingles",
+    "arabic": "Arabic",
+    "spanish": "Espanyol"
+  }
+}
