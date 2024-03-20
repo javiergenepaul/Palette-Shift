@@ -8,6 +8,12 @@
     "formLabel": "Select Font Family",
     "formDescription": "Choose font family at your preferences"
   },
+  "theme": {
+    "toggleTheme": "Toggle Theme",
+    "dark": "Dark",
+    "light": "Light",
+    "system": "System"
+  },
   "color": {
     "success": {
       "general": "Color Palette updated! Cheers to smoother browsing in {{language}}! 🎉🎉🎉"

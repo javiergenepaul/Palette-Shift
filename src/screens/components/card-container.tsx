@@ -14,7 +14,7 @@ export const CardContainer = (props: CardContainerInterface) => {
   return (
     <Card>
       <CardHeader>
-        <CardTitle className="flex justify-between">
+        <CardTitle className="flex justify-between items-center ">
           {title} <DarkModeDropdown />
         </CardTitle>
         <CardDescription>{description}</CardDescription>
