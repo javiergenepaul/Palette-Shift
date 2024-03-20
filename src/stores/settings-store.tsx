@@ -4,18 +4,16 @@ import {
   THEME_LOCAL,
   Theme,
   COLOR_LOCAL,
-  Color,
   FONT_LOCAL,
-  FontType,
   DEFAULT_LANGUAGE,
-  LanguageType,
   LANG_LOCAL,
 } from "./settings-store-props";
+import { Color, FontFamiltyType, LanguageType } from "@/screens";
 
 export const useSettingsStore = create<SettingStoreInterface>((set, get) => ({
   theme: localStorage.getItem(THEME_LOCAL) as Theme | undefined,
   color: localStorage.getItem(COLOR_LOCAL) as Color | "emerald",
-  font: localStorage.getItem(FONT_LOCAL) as FontType | "inter",
+  font: localStorage.getItem(FONT_LOCAL) as FontFamiltyType | "inter",
   language:
     (localStorage.getItem(LANG_LOCAL) as LanguageType) || DEFAULT_LANGUAGE,
   setLanguage: (language: LanguageType) => set({ language }),
@@ -23,7 +21,7 @@ export const useSettingsStore = create<SettingStoreInterface>((set, get) => ({
     localStorage.setItem(COLOR_LOCAL, color as string);
     set({ color });
   },
-  setFont: (font: FontType) => {
+  setFont: (font: FontFamiltyType) => {
     localStorage.setItem(FONT_LOCAL, font);
     set({ font });
   },

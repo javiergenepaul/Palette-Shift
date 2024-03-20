@@ -1,15 +1,15 @@
 import { Color, LanguageType } from "@/screens";
+import { FontFamiltyType } from "@/screens/components/font-item";
 
 export type Theme = "dark" | "light" | "system" | undefined;
-export type FontType = "inter" | "work-sans" | "poppins";
 
 export interface SettingStoreInterface {
   theme: Theme;
-  font: FontType;
+  font: FontFamiltyType;
   color: Color;
   language: LanguageType;
   setColor: (color: Color) => void;
-  setFont: (font: FontType) => void;
+  setFont: (font: FontFamiltyType) => void;
   getSystemTheme: () => string;
   getTheme: () => boolean;
   setTheme: (theme: Theme) => void;
