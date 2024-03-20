@@ -14,8 +14,10 @@ import {
   SettingsOptionColorRadio,
   SettingsOptionRadioInterface,
 } from "../color-radio";
+import { useSettingsStore } from "@/stores";
 
 export const SettingsContent = () => {
+  const { color } = useSettingsStore();
   const COLOR_PALETTE_AVAILABLE: SettingsOptionRadioInterface[] = [
     {
       name: translate("color.options.emerald.title"),
@@ -61,11 +63,15 @@ export const SettingsContent = () => {
     },
   ];
 
+  const onChangeColor = () => {
+    return;
+  };
+
   return (
     <RadioGroup
-      // onValueChange={onChangeColor}
-      // value={color}
-      // defaultValue={color}
+      onValueChange={onChangeColor}
+      value={color}
+      defaultValue={color}
       className="max-w-[800px] grid-cols-3 gap-4 pt-2"
     >
       {COLOR_PALETTE_AVAILABLE.map(
