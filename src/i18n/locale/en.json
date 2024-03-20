@@ -4,6 +4,10 @@
   "completeTitle": "PaletteShift: Personalize Palette and Theme",
   "description": "Change the settings on your own preferences",
   "settingsUpdated": "Settings Updated",
+  "font": {
+    "formLabel": "Select Font Family",
+    "formDescription": "Choose font family at your preferences"
+  },
   "color": {
     "success": {
       "general": "Color Palette updated! Cheers to smoother browsing in {{language}}! 🎉🎉🎉"

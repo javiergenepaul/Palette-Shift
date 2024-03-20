@@ -1,4 +1,12 @@
-import { RadioGroup, useToast } from "@/components";
+import {
+  RadioGroup,
+  Select,
+  SelectContent,
+  SelectGroup,
+  SelectTrigger,
+  SelectValue,
+  useToast,
+} from "@/components";
 import {
   AZURE_COLOR,
   EMERALD_COLOR,
@@ -23,9 +31,11 @@ import {
 } from "../language-radio";
 import { ES_FLAG, JP_FLAG, PH_FLAG, SA_FLAG, US_FLAG } from "@/assets";
 import { InputFieldGroup } from "../input-field-group";
+import { FontFamiltyType, FontItem, FontItemInterface } from "../font-item";
 
 export const SettingsContent = () => {
-  const { color, language, setColor, setLanguage } = useSettingsStore();
+  const { color, language, font, setColor, setLanguage, setFont } =
+    useSettingsStore();
   const { toast } = useToast();
 
   const COLOR_PALETTE_AVAILABLE: SettingsOptionRadioInterface[] = [
@@ -101,6 +111,39 @@ export const SettingsContent = () => {
     },
   ];
 
+  const FONT_AVAILABLE: FontItemInterface[] = [
+    {
+      fontName: "Inter",
+      fontClassName: "font-inter",
+      value: "inter",
+    },
+    {
+      fontName: "Work Sans",
+      fontClassName: "font-work-sans",
+      value: "work-sans",
+    },
+    {
+      fontName: "Poppins",
+      fontClassName: "font-poppins",
+      value: "poppins",
+    },
+    {
+      fontName: "Lato",
+      fontClassName: "font-lato",
+      value: "lato",
+    },
+    {
+      fontName: "Nunito Sans",
+      fontClassName: "font-nunito-sans",
+      value: "nunito-sans",
+    },
+    {
+      fontName: "Open Sans",
+      fontClassName: "font-open-sans",
+      value: "open-sans",
+    },
+  ];
+
   const onChangeColor = (value: Color) => {
     setColor(value);
     toast({
@@ -129,8 +172,36 @@ export const SettingsContent = () => {
     });
   };
 
+  const onChangeFontFamily = (font: FontFamiltyType) => {
+    setFont(font);
+  };
+
   return (
     <div className="flex flex-col gap-8">
+      <InputFieldGroup
+        isHidden={language === "ja" || language === "ar"}
+        label={translate("font.formLabel")}
+        description={translate("font.formDescription")}
+      >
+        <Select
+          onValueChange={onChangeFontFamily}
+          defaultValue={font ? font : "inter"}
+          value={font ? font : "inter"}
+        >
+          <SelectTrigger className="w-[180px]">
+            <SelectValue />
+          </SelectTrigger>
+          <SelectContent>
+            <SelectGroup>
+              {FONT_AVAILABLE.map(
+                (fontProps: FontItemInterface, index: React.Key) => {
+                  return <FontItem key={index} {...fontProps} />;
+                }
+              )}
+            </SelectGroup>
+          </SelectContent>
+        </Select>
+      </InputFieldGroup>
       <InputFieldGroup
         label={translate("color.formLabel")}
         description={translate("color.formDescription")}

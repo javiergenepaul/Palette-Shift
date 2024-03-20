@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -70,7 +72,7 @@
     --ring: 142.1 76.2% 36.3%;
     --radius: 1rem;
   }
- 
+
   .dark.emerald {
     --background: 20 14.3% 4.1%;
     --foreground: 0 0% 95%;
@@ -115,7 +117,7 @@
     --ring: 24.6 95% 53.1%;
     --radius: 1rem;
   }
- 
+
   .dark.sunset {
     --background: 20 14.3% 4.1%;
     --foreground: 60 9.1% 97.8%;
@@ -160,7 +162,7 @@
     --ring: 346.8 77.2% 49.8%;
     --radius: 1rem;
   }
- 
+
   .dark.scarlet {
     --background: 20 14.3% 4.1%;
     --foreground: 0 0% 95%;
@@ -205,7 +207,7 @@
     --ring: 262.1 83.3% 57.8%;
     --radius: 1rem;
   }
- 
+
   .dark.purple {
     --background: 224 71.4% 4.1%;
     --foreground: 210 20% 98%;
@@ -250,7 +252,7 @@
     --ring: 20 14.3% 4.1%;
     --radius: 1rem;
   }
- 
+
   .dark.golden {
     --background: 20 14.3% 4.1%;
     --foreground: 60 9.1% 97.8%;
@@ -295,7 +297,7 @@
     --ring: 0 0% 3.9%;
     --radius: 1rem;
   }
- 
+
   .dark.silver {
     --background: 0 0% 3.9%;
     --foreground: 0 0% 98%;
@@ -326,4 +328,33 @@
   body {
     @apply bg-background text-foreground;
   }
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #929292;
+}
+
+.dark ::-webkit-scrollbar-track {
+  background: #232323;
+}
+
+::-webkit-scrollbar-thumb {
+  background: hsl(var(--primary) / 0.8);
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: hsl(var(--primary));
+}
+
+::-webkit-scrollbar-button {
+  display: none;
+}
+
+::-webkit-scrollbar-corner {
+  background: #ccc;
 }
