@@ -1,4 +1,4 @@
-import { RadioGroup } from "@/components";
+import { RadioGroup, useToast } from "@/components";
 import {
   AZURE_COLOR,
   EMERALD_COLOR,
@@ -25,7 +25,8 @@ import { ES_FLAG, JP_FLAG, PH_FLAG, SA_FLAG, US_FLAG } from "@/assets";
 import { InputFieldGroup } from "../input-field-group";
 
 export const SettingsContent = () => {
-  const { color, setColor, language, setLanguage } = useSettingsStore();
+  const { color, language, setColor, setLanguage } = useSettingsStore();
+  const { toast } = useToast();
 
   const COLOR_PALETTE_AVAILABLE: SettingsOptionRadioInterface[] = [
     {
@@ -102,10 +103,30 @@ export const SettingsContent = () => {
 
   const onChangeColor = (value: Color) => {
     setColor(value);
+    toast({
+      variant: "success",
+      duration: 3000,
+      title: translate("settingsUpdated"),
+      description: translate("color.toast.success", {
+        color: COLOR_PALETTE_AVAILABLE.find(
+          (item: SettingsOptionRadioInterface) => item.value === value
+        )?.name,
+      }),
+    });
   };
 
   const onChangeLanguage = (value: LanguageType) => {
     setLanguage(value);
+    toast({
+      variant: "success",
+      duration: 3000,
+      title: translate("settingsUpdated"),
+      description: translate("languageOption.toast.success", {
+        language: LANGUAGE_OPTIONS.find(
+          (item: SettingOptionLangRadioInterface) => item.value === value
+        )?.name,
+      }),
+    });
   };
 
   return (
