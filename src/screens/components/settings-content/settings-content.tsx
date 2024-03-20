@@ -17,7 +17,7 @@ import {
   SUNSET_COLOR,
 } from "@/config";
 import { translate } from "@/i18n";
-import { generateColorQoutes } from "@/lib";
+import { generateColorQoutes, getRandomGeneratedColorQoutes } from "@/lib";
 import {
   Color,
   SettingsOptionColorRadio,
@@ -64,7 +64,7 @@ export const SettingsContent = () => {
       qoutes: [...generateColorQoutes("sunset")],
     },
     {
-      name: translate("color.options.lavender.title"),
+      name: translate("color.options.purple.title"),
       value: "purple",
       color: LAVENDER_COLOR,
       qoutes: [...generateColorQoutes("purple")],
@@ -146,16 +146,17 @@ export const SettingsContent = () => {
 
   const onChangeColor = (value: Color) => {
     setColor(value);
-    toast({
-      variant: "success",
-      duration: 3000,
-      title: translate("settingsUpdated"),
-      description: translate("color.toast.success", {
-        color: COLOR_PALETTE_AVAILABLE.find(
-          (item: SettingsOptionRadioInterface) => item.value === value
-        )?.name,
-      }),
-    });
+    const colorSelected: SettingsOptionRadioInterface | undefined =
+      COLOR_PALETTE_AVAILABLE.find((data) => data.value === color);
+
+    if (colorSelected) {
+      toast({
+        variant: "success",
+        duration: 3000,
+        title: translate("settingsUpdated"),
+        description: getRandomGeneratedColorQoutes(colorSelected.qoutes),
+      });
+    }
   };
 
   const onChangeLanguage = (value: LanguageType) => {

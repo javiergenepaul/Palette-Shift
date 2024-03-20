@@ -27,3 +27,15 @@ export const generateColorQoutes = (color: Color): string[] => {
 
   return colorQoutes;
 };
+
+/**
+ * Returns a randomly selected quote from the provided array of color quotes.
+ * @param {string[]} colorQoutes - An array of color quotes.
+ * @returns {string} A randomly selected quote from the array.
+ */
+export const getRandomGeneratedColorQoutes = (
+  colorQoutes: string[]
+): string => {
+  const randomIndex = Math.floor(Math.random() * colorQoutes.length);
+  return colorQoutes[randomIndex];
+};
